@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EB1C30522E1FA86900142092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB1C303C2E1FA86500142092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB1C30432E1FA86500142092;
+			remoteInfo = CustomTextFieldStyle6;
+		};
+		EB1C305C2E1FA86900142092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB1C303C2E1FA86500142092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB1C30432E1FA86500142092;
+			remoteInfo = CustomTextFieldStyle6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB1C30442E1FA86500142092 /* CustomTextFieldStyle6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextFieldStyle6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1C30512E1FA86900142092 /* CustomTextFieldStyle6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTextFieldStyle6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1C305B2E1FA86900142092 /* CustomTextFieldStyle6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTextFieldStyle6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB1C30462E1FA86500142092 /* CustomTextFieldStyle6 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CustomTextFieldStyle6;
+			sourceTree = "<group>";
+		};
+		EB1C30542E1FA86900142092 /* CustomTextFieldStyle6Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CustomTextFieldStyle6Tests;
+			sourceTree = "<group>";
+		};
+		EB1C305E2E1FA86900142092 /* CustomTextFieldStyle6UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CustomTextFieldStyle6UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB1C30412E1FA86500142092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1C304E2E1FA86900142092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1C30582E1FA86900142092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB1C303B2E1FA86500142092 = {
+			isa = PBXGroup;
+			children = (
+				EB1C30462E1FA86500142092 /* CustomTextFieldStyle6 */,
+				EB1C30542E1FA86900142092 /* CustomTextFieldStyle6Tests */,
+				EB1C305E2E1FA86900142092 /* CustomTextFieldStyle6UITests */,
+				EB1C30452E1FA86500142092 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB1C30452E1FA86500142092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB1C30442E1FA86500142092 /* CustomTextFieldStyle6.app */,
+				EB1C30512E1FA86900142092 /* CustomTextFieldStyle6Tests.xctest */,
+				EB1C305B2E1FA86900142092 /* CustomTextFieldStyle6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB1C30432E1FA86500142092 /* CustomTextFieldStyle6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1C30652E1FA86900142092 /* Build configuration list for PBXNativeTarget "CustomTextFieldStyle6" */;
+			buildPhases = (
+				EB1C30402E1FA86500142092 /* Sources */,
+				EB1C30412E1FA86500142092 /* Frameworks */,
+				EB1C30422E1FA86500142092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EB1C30462E1FA86500142092 /* CustomTextFieldStyle6 */,
+			);
+			name = CustomTextFieldStyle6;
+			packageProductDependencies = (
+			);
+			productName = CustomTextFieldStyle6;
+			productReference = EB1C30442E1FA86500142092 /* CustomTextFieldStyle6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB1C30502E1FA86900142092 /* CustomTextFieldStyle6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1C30682E1FA86900142092 /* Build configuration list for PBXNativeTarget "CustomTextFieldStyle6Tests" */;
+			buildPhases = (
+				EB1C304D2E1FA86900142092 /* Sources */,
+				EB1C304E2E1FA86900142092 /* Frameworks */,
+				EB1C304F2E1FA86900142092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB1C30532E1FA86900142092 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB1C30542E1FA86900142092 /* CustomTextFieldStyle6Tests */,
+			);
+			name = CustomTextFieldStyle6Tests;
+			packageProductDependencies = (
+			);
+			productName = CustomTextFieldStyle6Tests;
+			productReference = EB1C30512E1FA86900142092 /* CustomTextFieldStyle6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB1C305A2E1FA86900142092 /* CustomTextFieldStyle6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1C306B2E1FA86900142092 /* Build configuration list for PBXNativeTarget "CustomTextFieldStyle6UITests" */;
+			buildPhases = (
+				EB1C30572E1FA86900142092 /* Sources */,
+				EB1C30582E1FA86900142092 /* Frameworks */,
+				EB1C30592E1FA86900142092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB1C305D2E1FA86900142092 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB1C305E2E1FA86900142092 /* CustomTextFieldStyle6UITests */,
+			);
+			name = CustomTextFieldStyle6UITests;
+			packageProductDependencies = (
+			);
+			productName = CustomTextFieldStyle6UITests;
+			productReference = EB1C305B2E1FA86900142092 /* CustomTextFieldStyle6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB1C303C2E1FA86500142092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					EB1C30432E1FA86500142092 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					EB1C30502E1FA86900142092 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EB1C30432E1FA86500142092;
+					};
+					EB1C305A2E1FA86900142092 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EB1C30432E1FA86500142092;
+					};
+				};
+			};
+			buildConfigurationList = EB1C303F2E1FA86500142092 /* Build configuration list for PBXProject "CustomTextFieldStyle6" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB1C303B2E1FA86500142092;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB1C30452E1FA86500142092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB1C30432E1FA86500142092 /* CustomTextFieldStyle6 */,
+				EB1C30502E1FA86900142092 /* CustomTextFieldStyle6Tests */,
+				EB1C305A2E1FA86900142092 /* CustomTextFieldStyle6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB1C30422E1FA86500142092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1C304F2E1FA86900142092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1C30592E1FA86900142092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB1C30402E1FA86500142092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1C304D2E1FA86900142092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1C30572E1FA86900142092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB1C30532E1FA86900142092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB1C30432E1FA86500142092 /* CustomTextFieldStyle6 */;
+			targetProxy = EB1C30522E1FA86900142092 /* PBXContainerItemProxy */;
+		};
+		EB1C305D2E1FA86900142092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB1C30432E1FA86500142092 /* CustomTextFieldStyle6 */;
+			targetProxy = EB1C305C2E1FA86900142092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB1C30632E1FA86900142092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB1C30642E1FA86900142092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB1C30662E1FA86900142092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toters.CustomTextFieldStyle6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB1C30672E1FA86900142092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toters.CustomTextFieldStyle6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB1C30692E1FA86900142092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toters.CustomTextFieldStyle6Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTextFieldStyle6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomTextFieldStyle6";
+			};
+			name = Debug;
+		};
+		EB1C306A2E1FA86900142092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toters.CustomTextFieldStyle6Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTextFieldStyle6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomTextFieldStyle6";
+			};
+			name = Release;
+		};
+		EB1C306C2E1FA86900142092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toters.CustomTextFieldStyle6UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomTextFieldStyle6;
+			};
+			name = Debug;
+		};
+		EB1C306D2E1FA86900142092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toters.CustomTextFieldStyle6UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomTextFieldStyle6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB1C303F2E1FA86500142092 /* Build configuration list for PBXProject "CustomTextFieldStyle6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1C30632E1FA86900142092 /* Debug */,
+				EB1C30642E1FA86900142092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1C30652E1FA86900142092 /* Build configuration list for PBXNativeTarget "CustomTextFieldStyle6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1C30662E1FA86900142092 /* Debug */,
+				EB1C30672E1FA86900142092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1C30682E1FA86900142092 /* Build configuration list for PBXNativeTarget "CustomTextFieldStyle6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1C30692E1FA86900142092 /* Debug */,
+				EB1C306A2E1FA86900142092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1C306B2E1FA86900142092 /* Build configuration list for PBXNativeTarget "CustomTextFieldStyle6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1C306C2E1FA86900142092 /* Debug */,
+				EB1C306D2E1FA86900142092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB1C303C2E1FA86500142092 /* Project object */;
+}
